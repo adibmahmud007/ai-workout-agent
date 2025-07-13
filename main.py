@@ -48,6 +48,7 @@ VOICE_MAPPING = {
     "Rebuilder": "en-US-JennyNeural"  # More encouraging tone
 }
 
+
 def format_workout_text(workout_plan: list, motivational_text: str, time_commitment: str, mission: str) -> str:
     """Enhanced formatting for natural speech delivery"""
     formatted_steps = []
