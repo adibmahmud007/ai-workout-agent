@@ -1,7 +1,7 @@
 # test_groq.py
 import os
-import requests
-from dotenv import load_dotenv
+import requests # type: ignore
+from dotenv import load_dotenv # type: ignore
 
 load_dotenv()
 key = os.getenv("GROQ_API_KEY")
@@ -11,6 +11,7 @@ headers = {
     "Authorization": f"Bearer {key}",
     "Content-Type": "application/json"
 }
+
 
 body = {
     "model": "llama3-8b-8192",
