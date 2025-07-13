@@ -28,3 +28,10 @@ This is a FastAPI-powered AI Fitness Coach that generates personalized audio-bas
 ```bash
 git clone https://github.com/your-username/ai-fitness-agent.git
 cd ai-fitness-agent
+```
+###Create .env File
+Create a .env file in the root directory and add your GROQ API key:
+```bash
+GROQ_API_KEY=your_groq_api_key_here
+```
+🔐 You can get your key from: https://console.groq.com/
