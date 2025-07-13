@@ -56,3 +56,22 @@ json
   "squad": "Warrior"
 }
 ```
+### Sample Output
+json
+```bash
+{
+  "status": "success",
+  "workout_plan": [
+    "Step 1: Do 3 sets of 10 push-ups",
+    "Step 2: Perform 3 sets of 15 squats",
+    "Step 3: Finish with a 1-minute plank"
+  ],
+  "motivational_text": "Great job! You're getting stronger every day!",
+  "audio_info": {
+    "filename": "workout_Build-Strength_15-minute_abcd1234.mp3",
+    "download_url": "/download-audio/workout_Build-Strength_15-minute_abcd1234.mp3",
+    "play_url": "/play-audio/workout_Build-Strength_15-minute_abcd1234.mp3"
+  },
+  "formatted_text": "Your 15 minute build strength workout:\n\nFirst, we'll do 3 sets of 10 push-ups...\n\nMotivation for today:\nGreat job! You're getting stronger every day!"
+}
+```
