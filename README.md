@@ -75,3 +75,13 @@ json
   "formatted_text": "Your 15 minute build strength workout:\n\nFirst, we'll do 3 sets of 10 push-ups...\n\nMotivation for today:\nGreat job! You're getting stronger every day!"
 }
 ```
+## ⚙️ How It Works 
+
+1. You send a `POST` request to `/generate-plan` with your workout preferences (goal, time, gear, squad).
+2. The app uses GROQ's LLaMA3 model to create a personalized workout plan and motivational message.
+3. It converts that plan to audio using Microsoft Edge TTS.
+4. The response includes a generated audio filename and two URLs:
+   - `/play-audio/{filename}` → to **play** the audio in browser
+   - `/download-audio/{filename}` → to **download** the `.mp3` file
+5. You can use these links in any `GET` request to access your audio coaching!
+
