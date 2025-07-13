@@ -35,3 +35,24 @@ Create a .env file in the root directory and add your GROQ API key:
 GROQ_API_KEY=your_groq_api_key_here
 ```
 🔐 You can get your key from: https://console.groq.com/
+
+### Run the FastAPI Server
+Run the app using uvicorn:
+```bash
+uvicorn main:app --reload --port 9000
+```
+Then open your browser and go to:
+👉 http://localhost:9000/docs to test the endpoints via Swagger UI.
+
+### Sample Input
+POST /generate-plan
+
+json
+```bash
+{
+  "mission": "Build-Strength",
+  "time_commitment": "15 minute",
+  "gear": "Dumbbells",
+  "squad": "Warrior"
+}
+```
