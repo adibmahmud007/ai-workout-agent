@@ -83,5 +83,6 @@ json
 4. The response includes a generated audio filename and two URLs:
    - `/play-audio/{filename}` → to **play** the audio in browser
    - `/download-audio/{filename}` → to **download** the `.mp3` file
-5. You can use these links in any `GET` request to access your audio coaching!
+5. We need to pass the filename (obtained from the POST API response in the audio-info section) to the /play-audio and /download-audio APIs, which utilize GET requests, allowing us to hear and download the audio.
+6. Formatted_Text is not mentioned in the requirement, but I have used it so that we get a clearly formatted text to generate the audio seamlessly.
 
