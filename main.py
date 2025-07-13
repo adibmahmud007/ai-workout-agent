@@ -43,9 +43,9 @@ class UserProfile(BaseModel):
 # Enhanced voice mapping with more expressive voices
 VOICE_MAPPING = {
     "Lone Wolf": "en-US-JennyNeural",
-    "Guardian": "en-US-AriaNeural",
-    "Warrior": "en-US-DavisNeural",  # More authoritative voice
-    "Rebuilder": "en-US-BrianNeural"  # More encouraging tone
+    "Guardian": "en-US-JennyNeural",
+    "Warrior": "en-US-JennyNeural",  # More authoritative voice
+    "Rebuilder": "en-US-JennyNeural"  # More encouraging tone
 }
 
 def format_workout_text(workout_plan: list, motivational_text: str, time_commitment: str, mission: str) -> str:
