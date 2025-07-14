@@ -26,7 +26,7 @@ This is a FastAPI-powered AI Fitness Coach that generates personalized audio-bas
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-fitness-agent.git
+git clone https://github.com/adibmahmud007/ai-fitness-agent.git
 cd ai-fitness-agent
 ```
 ### Create .env File
